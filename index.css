@@ -26,10 +26,13 @@ header {
 
 .country_button {
   cursor: pointer;
-  color: white;
   font-size: 30px;
   text-align: center;
   border: none;
+}
+
+.country_button button {
+  color: white;
   background-color: #363636;
 }
 
