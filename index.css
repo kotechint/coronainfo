@@ -25,10 +25,12 @@ header {
 }
 
 .country_button {
+  cursor: pointer;
+  color: white;
   font-size: 30px;
   text-align: center;
   border: none;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #363636;
 }
 
 #date_menu {
