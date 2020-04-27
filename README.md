@@ -1,1 +1,1 @@
-# coronaingo
+# coronainfo
