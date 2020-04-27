@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+    <title>CORONAINFO</title>
+  </head>
+  <body
+    oncontextmenu="return false"
+    ondragstart="return false"
+    onselectstart="return false"
+  >
+    <header>
+      <h1 id="logo">
+        <a id="logo_anchor" href="http://coronavirusinfo.kro.kr">CORNAINFO</a>
+      </h1>
+      <nav>
+        <div class="nav_menu">
+          <button class="menu_button">HOME</button>
+          <button
+            class="menu_button"
+            onclick="window.open('mailto:corporation@docorp.kro.kr')"
+          >
+            FeedBack
+          </button>
+          <button class="menu_button">other site</button>
+        </div>
+        <div id="date_menu">
+          <span>마지막 업데이트 날짜 : 2020.4.27 오전 8:00</span>
+          <button class="reload_button" onClick="window.location.reload()">
+            새로고침
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="main_content">
+      <div class="country_button">
+        <button id="jsChangeCountry" class="country_button">Korea</button>
+      </div>
+      <table>
+        <tr id="title">
+          <td>확진자 수</td>
+          <td>사망자 수</td>
+          <td>격리 해제</td>
+          <td id="during__treatment">치료 중</td>
+        </tr>
+        <tr id="content">
+          <td id="confirmer_number"></td>
+          <td id="deaths_number"></td>
+          <td id="quarantine_release"></td>
+          <td id="during_treatment"></td>
+        </tr>
+        <tr id="rast_day_content">
+          <td id="rast_day">전일 대비 (+10)</td>
+          <td id="rast_day2">전일 대비 (+2)</td>
+          <td id="rast_day3">전일 대비 (+82)</td>
+          <td id="rast_day4">전일 대비 (-74)</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

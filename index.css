@@ -1,0 +1,86 @@
+body {
+  background-color: lightskyblue;
+}
+
+header {
+  position: sticky;
+}
+
+#logo {
+  text-align: center;
+}
+
+#logo_anchor {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+.main_content {
+  width: 100vh;
+  height: 40vh;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.country_button {
+  font-size: 30px;
+  text-align: center;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#date_menu {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.nav_menu {
+  text-align: center;
+}
+
+.menu_button {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #363636;
+}
+
+.reload_button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+table {
+  width: 90%;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#title td {
+  font-size: 30px;
+}
+
+#content td {
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+table td {
+  text-align: center;
+  padding: 5px;
+}
+
+#rast_day_content td {
+  color: red;
+}
