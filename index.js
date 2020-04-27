@@ -10,13 +10,13 @@ const rastDay2 = document.querySelector("#rast_day2");
 const rastDay3 = document.querySelector("#rast_day3");
 const rastDay4 = document.querySelector("#rast_day4");
 
-let CONFIRMER_KOREA = "17,280";
+let CONFIRMER_KOREA = "17,380";
 let CONFIRMER_WORLD = "2,953,403";
 
-let DEATHS_KOREA = "242";
+let DEATHS_KOREA = "243";
 let DEATHS_WORLD = "206,801";
 
-let KO_QUARANTINE_RELEASE = "8,717";
+let KO_QUARANTINE_RELEASE = "8,764";
 let WO_QUARANTINE_RELEASE = "878,233";
 
 let KO_DURING_TREATMENT = "1,769";
@@ -24,13 +24,13 @@ let KO_DURING_TREATMENT = "1,769";
 let KO_RAST_DAY = "전일 대비 (+10)";
 let WO_RAST_DAY = "전일 대비 (+50,179)";
 
-let KO_RAST_DAY2 = "전일대비 (+2)";
-let WO_RAST_DAY2 = "전일 대비 (+3,038)";
+let KO_RAST_DAY2 = "(+1)";
+let WO_RAST_DAY2 = "(+3,038)";
 
-let KO_RAST_DAY3 = "전일대비 (+82)";
-let WO_RAST_DAY3 = "전일대비 (+36,053)";
+let KO_RAST_DAY3 = "(+47)";
+let WO_RAST_DAY3 = "(+36,053)";
 
-let KO_RAST_DAY4 = "전일 대비 (-74)";
+let KO_RAST_DAY4 = "(-38)";
 
 let change = false;
 
