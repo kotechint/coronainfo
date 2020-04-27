@@ -89,3 +89,13 @@ table td {
 #rast_day_content td {
   color: red;
 }
+
+.info_mainDiv {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.info_mainDiv a {
+  color: black;
+  text-decoration: none;
+}
